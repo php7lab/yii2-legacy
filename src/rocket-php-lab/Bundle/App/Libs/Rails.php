@@ -27,7 +27,7 @@ class Rails
 
     private static function loadDomainConfig()
     {
-        include __DIR__ . '/../../../../../rocket-php-lab/yii2-legacy/src/yii2rails/app/domain/helpers/Func.php';
+        include __DIR__ . '/../../../../../../../php7lab/yii2-legacy/src/yii2rails/app/domain/helpers/Func.php';
         include __DIR__ . '/App.php';
         $domainConfig = LoadHelper::loadScript('common/config/domains.php');
         foreach ($domainConfig as $domainId => &$definition) {
