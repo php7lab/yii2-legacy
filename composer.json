@@ -1,0 +1,25 @@
+{
+  "name": "php7lab/yii2-legacy",
+  "type": "extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yamshikov Vitaliy",
+      "email": "theyamshikov@yandex.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "yii2rails\\": "src\\yii2rails",
+      "yii2bundle\\": "src\\yii2bundle",
+      "yii2extension\\": "src\\yii2extension",
+      "yii2tool\\": "src\\yii2tool",
+      "yubundle\\": "src\\yubundle",
+      "RocketLab\\": "src\\rocket-php-lab"
+    }
+  }
+}

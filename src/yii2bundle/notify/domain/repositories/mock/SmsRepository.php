@@ -1,0 +1,23 @@
+<?php
+
+namespace yii2bundle\notify\domain\repositories\mock;
+
+use Yii;
+use yii\helpers\ArrayHelper;
+use yii2rails\domain\repositories\BaseRepository;
+use yii2rails\domain\values\TimeValue;
+use yii2bundle\notify\domain\entities\SmsEntity;
+use yii2bundle\notify\domain\entities\TestEntity;
+use yii2bundle\notify\domain\interfaces\repositories\SmsInterface;
+
+class SmsRepository extends BaseRepository implements SmsInterface {
+	
+	public function send(SmsEntity $message) {
+		return \App::$domain->notify->test->send(TestEntity::TYPE_SMS, $message->address, null, $message->content);
+	}
+
+    public function isDelivered($id, $phone) {
+        $timeValue = new TimeValue(time());
+        return $timeValue;
+    }
+}

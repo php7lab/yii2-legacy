@@ -1,0 +1,42 @@
+<?php
+
+namespace yii2bundle\notify\domain\entities;
+
+use yii2rails\domain\BaseEntity;
+use yii2bundle\lang\domain\helpers\LangHelper;
+
+/**
+ * Class MessageEntity
+ *
+ * @package yii2bundle\notify\domain\entities
+ *
+ * @property string $address
+ * @property string $subject
+ * @property string $content
+ */
+class MessageEntity extends BaseEntity {
+	
+	protected $address;
+	protected $subject;
+	protected $content;
+	
+	/**
+	 * @inheritdoc
+	 */
+	public function rules()
+	{
+		return [
+			[['content', 'subject'], 'trim'],
+			[['address', 'content'], 'required'],
+		];
+	}
+	
+	public function setSubject($value) {
+		$this->subject = LangHelper::extract($value);
+	}
+	
+	public function setContent($value) {
+		$this->content = LangHelper::extract($value);
+	}
+	
+}

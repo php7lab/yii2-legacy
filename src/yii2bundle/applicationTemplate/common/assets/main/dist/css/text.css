@@ -1,0 +1,18 @@
+
+html,
+body {
+    height: 100%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.strike {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.text-default {
+    color: #333;
+}
