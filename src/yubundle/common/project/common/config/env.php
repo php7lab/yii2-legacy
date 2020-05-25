@@ -222,17 +222,17 @@ return [
 			'migration' => [
 				'class' => 'yii2bundle\db\domain\filters\migration\SetPath',
 				'path' => [
-					'@vendor/rocket-php-lab/yii2-legacy/src/yii2bundle/rbac/domain/migrations',
-					'@vendor/rocket-php-lab/yii2-legacy/src/yii2bundle/notify/domain/migrations',
+					'@vendor/php7lab/yii2-legacy/src/yii2bundle/rbac/domain/migrations',
+					'@vendor/php7lab/yii2-legacy/src/yii2bundle/notify/domain/migrations',
                     '@vendor/yii2tool/yii2-restclient/src/domain/migrations',
-					'@vendor/rocket-php-lab/yii2-legacy/src/yii2bundle/lang/domain/migrations',
-                    '@vendor/rocket-php-lab/yii2-legacy/src/yii2bundle/notify/domain/migrations',
-					//'@vendor/rocket-php-lab/yii2-legacy/src/yii2bundle/geo/domain/migrations',
-                    '@vendor/rocket-php-lab/yii2-legacy/src/yubundle/account/domain/v2/migrations',
-                    '@vendor/rocket-php-lab/yii2-legacy/src/yubundle/reference/domain/migrations',
-                    '@vendor/rocket-php-lab/yii2-legacy/src/yubundle/user/domain/v1/migrations',
-                    '@vendor/rocket-php-lab/yii2-legacy/src/yubundle/storage/domain/v1/migrations',
-                    '@vendor/rocket-php-lab/yii2-legacy/src/yubundle/staff/domain/v1/migrations',
+					'@vendor/php7lab/yii2-legacy/src/yii2bundle/lang/domain/migrations',
+                    '@vendor/php7lab/yii2-legacy/src/yii2bundle/notify/domain/migrations',
+					//'@vendor/php7lab/yii2-legacy/src/yii2bundle/geo/domain/migrations',
+                    '@vendor/php7lab/yii2-legacy/src/yubundle/account/domain/v2/migrations',
+                    '@vendor/php7lab/yii2-legacy/src/yubundle/reference/domain/migrations',
+                    '@vendor/php7lab/yii2-legacy/src/yubundle/user/domain/v1/migrations',
+                    '@vendor/php7lab/yii2-legacy/src/yubundle/storage/domain/v1/migrations',
+                    '@vendor/php7lab/yii2-legacy/src/yubundle/staff/domain/v1/migrations',
                     '@vendor/yiisoft/yii2/log/migrations'
 				],
 				'scan' => [

@@ -20,7 +20,7 @@ class Env extends BaseRegistry {
 
 	public static function getDefinition($projectDir) {
 		$projectDirs = ArrayHelper::toArray($projectDir);
-		$projectDirs[] = 'vendor/rocket-php-lab/yii2-legacy/src/yii2rails/app/application';
+		$projectDirs[] = 'vendor/php7lab/yii2-legacy/src/yii2rails/app/application';
 		$paths = [];
 		foreach($projectDirs as $dir) {
 			$paths[] = self::initItem($dir);

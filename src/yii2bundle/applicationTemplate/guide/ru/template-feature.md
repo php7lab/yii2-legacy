@@ -7,7 +7,7 @@
 
 * Точки входа `index.php` стали более чистыми и гибкими
 * Конфигурация стала удобнее и проще
-* [Структуру файлов конфигураций можно легко кастомизировать](https://gitlab.com/rocket-php-lab/yii2-legacy/-/tree/master/src/app/blob/master/guide/ru/config.md)
+* [Структуру файлов конфигураций можно легко кастомизировать](https://github.com/php7lab/yii2-legacy/tree/master/src/app/blob/master/guide/ru/config.md)
 * [Инициализация проекта стала более гибкой](https://github.com/yii2bundle/yii2-init/blob/master/guide/ru/init.md)
 * [Вместо модели (**M**) используется парадигма *Domain-Driven Design* (**DDD**)](https://github.com/yii2rails/yii2-domain/blob/master/guide/ru/README.md)
 * Разработан каркас админки

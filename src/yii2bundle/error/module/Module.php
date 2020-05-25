@@ -9,5 +9,5 @@ use yii\base\Module as YiiModule;
  */
 class Module extends YiiModule
 {
-	static $langDir = '@vendor/rocket-php-lab/yii2-legacy/src/yii2bundle/error/domain/messages';
+	static $langDir = '@vendor/php7lab/yii2-legacy/src/yii2bundle/error/domain/messages';
 }
