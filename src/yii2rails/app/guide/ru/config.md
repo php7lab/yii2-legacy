@@ -134,8 +134,8 @@ return [
 			[
 				'class' => 'yii2lab\migration\domain\filters\SetPath',
 				'path' => [
-					'@vendor/rocket-php-lab/yii2-legacy/src/yii2bundle/article/domain/migrations',
-					'@vendor/rocket-php-lab/yii2-legacy/src/yii2bundle/account/domain/v2/migrations',
+					'@vendor/php7lab/yii2-legacy/src/yii2bundle/article/domain/migrations',
+					'@vendor/php7lab/yii2-legacy/src/yii2bundle/account/domain/v2/migrations',
 				],
 				'scan' => [
 					'@domain',

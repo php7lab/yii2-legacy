@@ -14,8 +14,8 @@ return [
 			[
 				'class' => 'yii2bundle\db\domain\filters\migration\SetPath',
 				'path' => [
-					'@vendor/rocket-php-lab/yii2-legacy/src/yii2bundle/rbac/domain/migrations',
-                    '@vendor/rocket-php-lab/yii2-legacy/src/yii2bundle/rest/domain/migrations',
+					'@vendor/php7lab/yii2-legacy/src/yii2bundle/rbac/domain/migrations',
+                    '@vendor/php7lab/yii2-legacy/src/yii2bundle/rest/domain/migrations',
 				],
 				'scan' => [
 					'@domain',

@@ -35,7 +35,6 @@ class Kernel
         define('MICRO_TIME', microtime(true));
         Constant::defineEnv($env);
         $this->loader->loadYii();
-
     }
 
     private function loadMainConfig(string $appName): array

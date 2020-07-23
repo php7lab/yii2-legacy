@@ -6,7 +6,7 @@ $config = [
 	API_VERSION_STRING => 'dashboard/default/index',
 	
 	'@import' => [
-		'vendor/rocket-php-lab/yii2-legacy/src/yii2bundle/rest/api',
+		'vendor/php7lab/yii2-legacy/src/yii2bundle/rest/api',
 	],
 ];
 

@@ -167,7 +167,7 @@ LIMIT 1
         return [
             'yii/Yii' => 'yiisoft/yii2/Yii',
             'yii/classes' => 'yiisoft/yii2/classes',
-            'yii2rails/app/App' => 'rocket-php-lab/yii2-legacy/src/yii2rails/app/App',
+            'yii2rails/app/App' => 'php7lab/yii2-legacy/src/yii2rails/app/App',
         ];
     }
 

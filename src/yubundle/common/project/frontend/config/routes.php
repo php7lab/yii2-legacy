@@ -4,7 +4,7 @@ return [
 	'' => 'welcome',
 	
 	'@import' => [
-        'vendor/rocket-php-lab/yii2-legacy/src/yubundle/storage/web',
+        'vendor/php7lab/yii2-legacy/src/yubundle/storage/web',
 	],
 	
 ];

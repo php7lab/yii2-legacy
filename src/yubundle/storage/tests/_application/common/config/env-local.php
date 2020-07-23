@@ -16,5 +16,5 @@ $config = [
     ],
 ];
 
-$configFile = __DIR__ . '/../../../../../../../../../vendor/rocket-php-lab/yii2-legacy/src/yubundle/common/project/common/config/env-local.php';
+$configFile = __DIR__ . '/../../../../../../../../../vendor/php7lab/yii2-legacy/src/yubundle/common/project/common/config/env-local.php';
 return \yii2rails\extension\common\helpers\Helper::includeConfig($configFile, $config);
