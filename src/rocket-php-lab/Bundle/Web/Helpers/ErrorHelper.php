@@ -2,7 +2,6 @@
 
 namespace RocketLab\Bundle\Web\Helpers;
 
-use kartik\alert\Alert;
 use Packages\User\Domain\Interfaces\Services\IdentityServiceInterface;
 use PhpLab\Core\Domain\Exceptions\UnprocessibleEntityException;
 use PhpLab\Core\Domain\Helpers\EntityHelper;
@@ -10,6 +9,7 @@ use PhpLab\Core\Libs\I18Next\Facades\I18Next;
 use PhpLab\Sandbox\RestClient\Domain\Interfaces\Services\AccessServiceInterface;
 use PhpLab\Sandbox\RestClient\Domain\Interfaces\Services\ProjectServiceInterface;
 use PhpLab\Sandbox\RestClient\Yii\Web\models\EnvironmentForm;
+use RocketLab\Bundle\Toastr\widgets\Alert;
 use Yii;
 use yii\base\Module;
 use yii2bundle\account\domain\v3\enums\AccountPermissionEnum;
