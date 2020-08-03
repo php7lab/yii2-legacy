@@ -26,6 +26,10 @@ class BaseCrudController extends BaseController
         ];
     }
 
+    protected function prepareQuery() {
+
+    }
+
     public function actionIndex()
     {
         $queryParams = Yii::$app->request->get();

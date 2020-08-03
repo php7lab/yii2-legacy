@@ -11,11 +11,11 @@ use yii2rails\domain\helpers\DomainHelper;
  */
 class Module extends \yii\base\Module {
 	
-	public function init() {
+	/*public function init() {
 		DomainHelper::forgeDomains([
 			'dashboard' => 'yii2bundle\dashboard\domain\Domain',
 		]);
 		parent::init();
-	}
+	}*/
 	
 }
