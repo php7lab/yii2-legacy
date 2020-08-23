@@ -2,10 +2,10 @@
 
 namespace yii2bundle\account\domain\v3\strategies\token\handlers;
 
-use PhpBundle\Crypt\Domain\Entities\JwtEntity;
-use PhpBundle\Crypt\Domain\Interfaces\Services\JwtServiceInterface;
-use PhpBundle\Crypt\Domain\Repositories\Config\ProfileRepository;
-use PhpBundle\Crypt\Domain\Services\JwtService;
+use PhpBundle\Jwt\Domain\Entities\JwtEntity;
+use PhpBundle\Jwt\Domain\Interfaces\Services\JwtServiceInterface;
+use PhpBundle\Jwt\Domain\Repositories\Config\ProfileRepository;
+use PhpBundle\Jwt\Domain\Services\JwtService;
 use yii\web\UnauthorizedHttpException;
 use yii2bundle\account\domain\v3\dto\TokenDto;
 use yii2bundle\account\domain\v3\entities\LoginEntity;

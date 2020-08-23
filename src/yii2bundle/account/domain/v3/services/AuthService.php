@@ -2,9 +2,9 @@
 
 namespace yii2bundle\account\domain\v3\services;
 
-use PhpBundle\Crypt\Domain\Entities\JwtEntity;
-use PhpBundle\Crypt\Domain\Repositories\Config\ProfileRepository;
-use PhpBundle\Crypt\Domain\Services\JwtService;
+use PhpBundle\Jwt\Domain\Entities\JwtEntity;
+use PhpBundle\Jwt\Domain\Repositories\Config\ProfileRepository;
+use PhpBundle\Jwt\Domain\Services\JwtService;
 use PhpLab\Core\Libs\I18Next\Facades\I18Next;
 use Yii;
 use yii\base\InvalidArgumentException;
