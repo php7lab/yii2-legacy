@@ -1,2 +1,0 @@
-php socket stop
-pause

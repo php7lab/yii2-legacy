@@ -1,2 +1,0 @@
-php socketio stop
-pause
